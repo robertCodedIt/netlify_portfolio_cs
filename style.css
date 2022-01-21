@@ -349,7 +349,7 @@ body {
 /* scrollbar */
 /* media */
 /* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
+/* @media screen and (max-width: 1060px) {
   #primary {
     width: 67%;
   }
@@ -357,10 +357,10 @@ body {
     width: 30%;
     margin-left: 3%;
   }
-}
+} */
 
 /* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   #primary {
     width: 100%;
   }
@@ -369,12 +369,12 @@ body {
     margin: 0;
     border: none;
   }
-}
+} */
 img {
   max-width: 100%;
   height: auto;
 }
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
   body {
     font-size: 0.5rem;
   }
@@ -396,5 +396,5 @@ img {
 }
 html {
   font-size: 100%;
-}
+} */
 /* media */
