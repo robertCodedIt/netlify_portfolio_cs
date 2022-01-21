@@ -17,6 +17,7 @@
   width: 100%;
 }
 
+
 /* Links inside the navbar */
 .navbar a {
   float: left;
@@ -160,7 +161,7 @@ text-align: center;
   /* Keep the inherited background full size. */
   background-attachment: fixed; 
   background-size: cover;
-  display: grid;
+  display: grid !important;
   align-items: center;
   /* justify-content: center; */
   /* height: 100vh;*/
@@ -349,3 +350,18 @@ color: white;}
   }
 
 /* scrollbar */
+/* media */
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+img{ max-width: 100%; height: auto; }
+
+/* media */
