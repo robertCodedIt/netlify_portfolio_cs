@@ -28,14 +28,15 @@ const populate = () => {
       b.style.placeItems = 'center'
       b.style.margin = '.4rem'
       // create project names and links in the dropdown menu
-      let projectATags = document.createElement('a');
-      projectATags.innerText = `${projectNames[i]}`
-      projectATags.href = '#' + projectNames[i];
-      projectList.appendChild(projectATags);
+    
       c = document.createElement('p');
       c.innerText = descriptions[i];
       b.appendChild(c)
       projects.appendChild(b);
+        let projectATags = document.createElement('a');
+      projectATags.innerText = `${projectNames[i]}`
+      projectATags.href = '#' + projectNames[i];
+      projectList.appendChild(projectATags);
     }
   
   //   projects.style.display = 'grid';
