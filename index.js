@@ -69,4 +69,9 @@ const populate = () => {
   }
   populate();
   toTop();
+  const about = document.querySelector('#aboutpage');
+
+  div.addEventListener('dblclick', () => {
+    alert('You just double clicked the div!');
+  });
   
