@@ -4,7 +4,7 @@
       let projectNames = ['Farkle','Proxy Web Server', 'Youtube Clone','Bank App']
       let links = ['https://github.com/cs-memphis-c-py-401d1cd/lab06-greed-project-demarcus_robert_spencer','https://github.com/cs-memphis-code-301d3/code301-lab8-react-node-express-robertCodedIt','https://github.com/cs-memphis-code-301d3/301-group-project-final-lizzy-jerrod-robert','https://github.com/cs-memphis-code-301d3/mern-assessment-1-robertCodedIt']
       let descriptions=['Farkle Console Game using Python','Proxy Web Server leveraging NodeJS','Youtube clone using the MERN stack ','Banking App written in ReactJS']
-      let projects = document.getElementById("projects");
+      let projects = document.getElementById("projects-three");
       // for(let i =0;i<projectImages.length;i++){
 
       // }
